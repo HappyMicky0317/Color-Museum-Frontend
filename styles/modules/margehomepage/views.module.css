@@ -1,0 +1,96 @@
+.square {
+  width: 30px !important;
+  height: 30px !important;
+}
+.priceShowed {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1.3rem;
+  text-decoration: none !important;
+}
+.priceShowed span {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.dataTableContainer {
+  margin: 0;
+  width: 100%;
+}
+.dataTableContainer h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin: 0;
+  padding: 0 8px;
+}
+.dataTableContainer h2 {
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin: 0;
+  margin-top: auto;
+  margin-bottom: 2px;
+  padding: 0 8px;
+}
+.layout {
+  display: flex;
+  align-items: center;
+  margin: 0 0 1rem 0;
+}
+.mainGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 50px));
+  grid-template-rows: repeat(auto-fill, minmax(50px, 50px));
+  min-height: 30vh;
+  max-width: 100%;
+  margin: 0 auto 0;
+  padding-top: 80px !important;
+}
+.gridItem {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+.gridComplementItem {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #202020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.gridComplementItem svg {
+  transform: scale(0);
+  transition: all 0.5s;
+}
+.gridComplementItem:hover svg {
+  transform: scale(1.5);
+}
+@media screen and (min-width: 3000px) {
+  .mainGrid {
+    grid-template-rows: repeat(15, 1fr);
+  }
+}
+@media screen and (min-width: 3000px) {
+  .mainGrid {
+    grid-template-rows: repeat(15, 1fr);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .dataTableContainer h2 {
+    width: 100px;
+  }
+  .gridComplementItem:nth-child(n + 55) {
+    display: none;
+  }
+  .layout {
+    align-items: self-start;
+    flex-direction: column;
+  }
+}

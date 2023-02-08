@@ -1,0 +1,355 @@
+.wrapper {
+  background: #fff;
+  min-height: calc(100vh - 63px);
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 50px);
+  min-height: calc(100vh - 306px);
+  margin-left: 50px;
+}
+
+.containerWrapper {
+  width: 50%;
+  margin-top: 90px;
+  margin-bottom: auto;
+  min-height: 50vh;
+}
+
+.header {
+  font-size: 75px;
+  line-height: 75px;
+  font-family: "Sen", sans-serif;
+  padding: 0;
+  margin: 0;
+  width: calc(8 * 75px);
+}
+
+.description {
+  margin-top: 1.75rem;
+  font-size: 22.5px;
+  font-family: "Sen", sans-serif;
+  width: 35vw;
+  font-weight: 400;
+  width: calc(7 * 75px);
+}
+
+.description:last-of-type {
+  margin-bottom: 1.5rem;
+}
+
+.mobilePicker {
+  width: calc(100vw - 18px);
+  height: 60vh;
+  display: flex;
+  align-items: flex-end;
+  border-top: 10px solid #000;
+  border-bottom: 10px solid #000;
+  margin-bottom: 2rem;
+}
+
+.hexidecimalMobile {
+  width: 100%;
+  padding: 0 calc(7.5% - 10px);
+  min-height: calc(6.5vh + 10px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000;
+}
+
+.hexidecimalMobile p {
+  font-family: "Sen", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.hexidecimalMobile p:last-of-type {
+  text-transform: uppercase;
+}
+
+.colorChooseMobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 2px solid #000;
+  color: #000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 20px 0 20px;
+  font-family: "Plaid-L-Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 300ms;
+  text-transform: uppercase;
+}
+
+.colorChooseMobile:hover {
+  background: #000;
+  border: 2px solid #000;
+  color: #fff;
+}
+
+.containerButton {
+  width: 40%;
+  height: calc(75vh - 63px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.colorChoose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  background: #fff;
+  border: 2px solid #000;
+  color: #000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-family: "Plaid-L-Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 300ms;
+  text-transform: uppercase;
+}
+
+.colorChoose:hover {
+  background: #000;
+  border: 2px solid #000;
+  color: #fff;
+}
+
+.color {
+  width: 40%;
+  height: 100vh;
+  position: fixed;
+  right: calc(1vw + 0px);
+  top: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hexidecimal {
+  width: 100%;
+  height: 10.7vh;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.hexidecimal p {
+  color: #fff;
+  font-family: "Sen", sans-serif;
+  font-weight: 400;
+}
+
+.hexidecimal p:first-of-type {
+  margin-left: 10px;
+}
+
+.hexidecimal p:last-of-type {
+  margin-right: 50px;
+  text-transform: uppercase;
+}
+
+.lineSide {
+  position: fixed;
+  top: 0;
+  right: calc(40% + 0px + 1vw);
+  width: 10px;
+  height: 100vh;
+  background: #000;
+}
+
+.button:hover {
+  background: #000;
+  border: 2px solid #000;
+  color: #fff;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 2px solid #000;
+  color: #000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-family: "Plaid-L-Mono";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 300ms;
+  text-transform: uppercase;
+}
+
+.colorPickerContainer {
+  position: relative;
+  display: flex;
+}
+
+@media (-webkit-device-pixel-ratio: 2) and (width: 1440px) {
+  .header {
+    font-size: calc(75px * 0.75);
+    line-height: calc(75px * 0.75);
+  }
+
+  .description {
+    font-size: calc(22.5px * 0.75);
+    margin-top: calc(1.75rem * 0.75);
+  }
+
+  .description:last-of-type {
+    margin-bottom: calc(1.5rem * 0.75);
+  }
+
+  .colorChoose {
+    font-size: calc(20px * 0.75);
+    margin-top: calc(1rem * 0.75) 0;
+  }
+
+  .colorChoose:last-of-type {
+    margin-bottom: calc(1.5rem * 0.75);
+  }
+
+  .button {
+    font-size: calc(19px * 0.75);
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1310px) {
+  .header {
+    font-size: 60px;
+    line-height: 65px;
+    width: calc(8 * 60px);
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+  .header {
+    font-size: 45px;
+    line-height: 50px;
+    width: calc(8 * 50px);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .mobilePicker {
+    display: none;
+    visibility: hidden;
+  }
+
+  .colorChooseMobile {
+    display: none;
+  }
+
+  .colorPickerContainer article {
+    position: absolute;
+    top: 0;
+    left: 295px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .colorPicker {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .containerWrapper {
+    width: 100%;
+    margin: 50px auto 0;
+  }
+
+  .containerWrapper h1 {
+    font-size: 40px;
+  }
+
+  .containerWrapper h1,
+  .containerWrapper button,
+  .containerWrapper p {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .containerButton {
+    display: none;
+    visibility: hidden;
+  }
+
+  .colorChoose {
+    display: none;
+  }
+
+  .color {
+    display: none;
+    visibility: hidden;
+  }
+
+  .hexidecimal p {
+    font-size: calc(40px * 0.75);
+  }
+
+  .hexidecimal p:first-of-type {
+    margin-left: calc(10px * 0.75);
+  }
+
+  .hexidecimal p:last-of-type {
+    margin-right: calc(50px * 0.75);
+  }
+
+  .lineSide {
+    display: none;
+    visibility: hidden;
+  }
+
+  .button {
+    margin-bottom: 1rem;
+    padding: 0.75rem 1rem;
+    width: 250px;
+  }
+
+  .colorPickerContainer {
+    flex-direction: column-reverse;
+  }
+
+  .header {
+    width: 100%;
+    font-size: 60px;
+    line-height: 55px;
+  }
+
+  .description {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 2rem;
+  }
+}

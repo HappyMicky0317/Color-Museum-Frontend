@@ -1,0 +1,157 @@
+.marginForm {
+  margin: 1rem 0 1rem 50px !important;
+}
+
+.container {
+  width: calc(100% - 100px) !important;
+  margin: 20px auto 0;
+  border: 7.5px solid #bebebe;
+}
+
+.container article {
+  border-radius: 0;
+  background-color: rgb(15, 15, 15);
+  border-width: 0px;
+  z-index: 1;
+}
+
+.discount_container {
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.discount_container h2 b {
+  font-weight: 700;
+  font-family: "Plaid";
+}
+
+.discount_container .containerNFT h2 {
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 0.35rem 0;
+}
+
+.discount_container .priceH2 h2 {
+  text-transform: capitalize;
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 400;
+  margin: 0 0 0.35rem 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.discount_container h1 {
+  margin: 0 0 0.35rem 0;
+  font-weight: 500;
+}
+
+.discount_container h3 {
+  font-size: 1.4rem;
+  margin: 0;
+  color: #fff;
+  font-weight: 400;
+}
+
+.discount_container h3 span {
+  font-weight: 700;
+}
+
+.discount_container h3 img,
+.discount_container h3 span {
+  font-size: 1.6rem;
+  height: 1.2rem;
+}
+
+.containerNFT {
+  display: flex;
+  width: 57%;
+  gap: 15px;
+  color: #fff;
+  margin-top: auto;
+  align-items: flex-end;
+  margin-top: 100px;
+}
+
+.containerNFT h1 {
+  font-size: 4rem;
+  margin: 0;
+  width: fit-content;
+  font-weight: 700;
+}
+
+.containerNFT h2 {
+  font-size: 2rem;
+  margin: 0;
+  line-height: 55px;
+  font-family: "Plaid";
+}
+
+.button {
+  width: 100px;
+  height: 48px;
+  color: #fff;
+  font-size: 1rem;
+  border: 2px solid #616261;
+  border-radius: 10px;
+  background-color: transparent;
+  margin: 0 15px 0 0;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  font-weight: 700;
+}
+
+.button:hover {
+  color: #000;
+  border: 2px solid #fff;
+  background-color: #ffff;
+}
+
+@media screen and (max-width: 1920px) {
+  .discount_container .priceH2 h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .containerNFT h1 {
+    font-size: 80px;
+    line-height: 90px;
+  }
+
+  .discount_container .containerNFT h2 {
+    font-size: 30px;
+  }
+
+  .containerNFT {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .marginForm {
+    margin: 1rem 0 1rem 7.5% !important;
+  }
+
+  .container {
+    width: calc(85% + 20px) !important;
+  }
+
+  .containerNFT {
+    width: 80%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .discount_container .priceH2 h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}

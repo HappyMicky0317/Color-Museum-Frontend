@@ -1,0 +1,70 @@
+.colorBox {
+  padding: 0;
+  width: 350px;
+  margin-top: 235px;
+}
+.colorBox .box {
+  width: 70px;
+  height: 50px;
+  background-color: black;
+  min-width: 70px;
+}
+
+.boxItem {
+  height: 400px;
+  min-height: 400px;
+  cursor: pointer;
+  max-width: 100%;
+}
+.boxItem .innerBoxItem {
+  background: #000000;
+  border: 3px solid #3c3c3c;
+  box-sizing: border-box;
+  border-radius: 0px;
+  transition: all 0.5s;
+}
+.boxItem .innerBoxItem:hover {
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 30px 30px 5px 5px;
+}
+.video {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  border: 0;
+  height: 100%;
+  left: 0;
+  right: 0;
+}
+
+.footerPart {
+  background: #181818;
+  border-top: 3px solid #3c3c3c;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Sen', sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  color: #fff;
+}
+.bgColor {
+  min-height: 350px;
+  height: 350px;
+  position: relative;
+}
+@media screen and (max-width: 1000px) {
+  .boxItem:hover .innerBoxItem {
+    border: 3px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 30px 30px 5px 5px;
+  }
+  .colorBox{
+    width: 100%;
+    margin-top: 100px;
+  }
+}

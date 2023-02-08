@@ -1,0 +1,117 @@
+.Wrapper {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  margin: -1px auto 0;
+  font-family: 'Sen', sans-serif;
+  background: #000;
+}
+.HeaderContainer {
+  margin: 0 auto;
+  padding-top: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  color: #fff;
+  width: calc(100% - 80px);
+}
+
+.HeaderContainer h1 {
+  width: 100%;
+  font-size: 104px;
+  line-height: 104px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-family: 'Sen', sans-serif;
+  padding-bottom: 16px;
+}
+.HeaderContainer p {
+  margin: 16px 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 20px;
+  padding-top: 1rem;
+  font-family: 'Sen', sans-serif;
+  color: #fff;
+  width: 50%;
+}
+.HeaderContainer p:first-of-type {
+  width: 60%;
+}
+.EarlyAccess {
+  font-family: 'Sen', sans-serif;
+  justify-content: flex-start;
+  font-weight: 600;
+  color: white;
+  font: Sen Bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-decoration: none;
+  display: flex;
+  text-transform: uppercase;
+  width: auto;
+  height: auto;
+  border: 2px solid white;
+  border-radius: 60px;
+  padding: 8px 20px;
+  visibility: hidden;
+}
+
+@media (-webkit-device-pixel-ratio: 2) and (width: 1440px) {
+  .HeaderContainer {
+    padding-top: calc(15vh * 0.75);
+  }
+  .HeaderContainer h1 {
+    font-size: calc(104px * 0.75);
+    line-height: calc(104px * 0.75);
+    padding-bottom: calc(16px * 0.75);
+  }
+  .HeaderContainer p {
+    margin: calc(16px * 0.75) 0;
+    font-size: calc(20px * 0.75);
+  }
+}
+@media screen and (min-width: 1001px) and (max-width: 1600px) {
+  .HeaderContainer h1 {
+    font-size: 75px;
+    line-height: 75px;
+    width: 90%;
+  }
+  .HeaderContainer p {
+    font-size: 20px;
+  }
+  .HeaderContainer p:first-of-type {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Wrapper {
+    width: calc(100vw - 20px);
+  }
+  .HeaderContainer {
+    width: 85%;
+    padding-top: 15vh;
+    margin-left: calc(7.5% - 10px);
+  }
+  .HeaderContainer h1 {
+    font-size: 65px;
+    line-height: 65px;
+    width: 90%;
+  }
+  .HeaderContainer p {
+    width: 100%;
+    font-size: 18px;
+  }
+  .HeaderContainer p:first-of-type {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 558px) {
+  .EarlyAccess {
+    margin-left: -6%;
+    visibility: visible;
+    transform: scale(0.7);
+  }
+}

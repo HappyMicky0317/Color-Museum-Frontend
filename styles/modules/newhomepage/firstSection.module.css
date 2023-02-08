@@ -1,0 +1,333 @@
+.wrapper {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  margin: -1px auto 0;
+  font-family: 'Sen', sans-serif;
+  background: #000;
+}
+.container {
+  margin: 0 auto;
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: #fff;
+  width: calc(100% - 80px);
+}
+.MarqueeContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+/* @keyframes transformAnimation {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    ${({ index }) =>
+      index && `transform: translateY(calc(-27vw * ${index}))`};
+  }
+} */
+/* .MarqueeContainer{
+  position: absolute;
+  right: 100px;
+  top: 5px; 
+  z-index: 1; 
+} */
+.container h1 {
+  width: 100%;
+  font-size: 135px;
+  line-height: 162px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-family: 'Sen', sans-serif;
+  color: #fff;
+}
+.DiscountContainer {
+  margin-bottom: 50px;
+  font-family: 'Sen', sans-serif;
+  width: 100%;
+}
+.container .DiscountContainer h2 {
+  margin: 0;
+  font-weight: 400;
+}
+.container .DiscountContainer p {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  margin: 0;
+}
+.mainDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.innerDiv {
+  display: flex;
+  align-items: center;
+}
+.container .DiscountContainer h3 {
+  margin: 0;
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 78px;
+  color: #ffffff;
+}
+
+/*  */
+.NFTContainer {
+  text-decoration: none;
+  margin: 0 30px 20px 0;
+}
+
+.RecentlyContainer {
+  width: 370px;
+  min-height: 470px;
+  border: 3px solid;
+}
+.ContainerContent {
+  width: 100%;
+  display: block;
+}
+.RecentlyHeader {
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5px 10px;
+  margin-top: 0px !important;
+}
+.RecentlyHeader .logo {
+  /* height: 1vw !important; */
+  max-width: 180px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  position: relative;
+  margin-left: 2.5% !important;
+  display: flex;
+  margin-top: 5px;
+  width: 100%;
+  height: 45px;
+}
+.RecentlyHeader .flex {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.RecentlyHeader .flex {
+  display: flex;
+  margin-top: 5px;
+}
+.RecentlyHeader h5 {
+  font-size: 24px;
+  font-family: 'Sen', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-right: 2.5% !important;
+}
+.BackgroundContainer {
+  width: 98%;
+  height: 380px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.RecentlyHeader p {
+  font-size: 28px;
+  line-height: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.RecentlyHeader .margin_left {
+  margin-left: 2.5%;
+}
+.RecentlyHeader .margin_right {
+  margin-right: 2.5%;
+}
+.ChooseContainer {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+.earlyAccess {
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Sen', sans-serif;
+  border: 3px solid #000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 220px;
+  min-height: 48px;
+  margin: 0 30px 0 0;
+  color: #000;
+  z-index: 130;
+  cursor: pointer;
+  background: #fff;
+}
+.earlyAccess:hover {
+  transform: scale(1.03);
+}
+.ethMainDiv p {
+  margin-top: 0;
+}
+.ethMainDiv {
+  height: 70vh;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-around;
+}
+@media (-webkit-device-pixel-ratio: 2) and (width: 1440px) {
+  .ContainerContent {
+    height: calc(31.36 * 0.75);
+  }
+  /* .NFTContainer {
+    transform: scale(1.1);
+  } */
+  .RecentlyContainer {
+    width: 25vw;
+    min-height: calc(32vw * 0.75);
+    margin: 0 auto calc(16px * 0.75);
+  }
+  /* .RecentlyHeader {
+    height: calc(1.5vw * 0.75);
+  } */
+  .earlyAccess {
+    font-size: calc(20px * 0.75);
+    margin-top: calc(1rem * 0.75) 0;
+  }
+  .earlyAccess:last-of-type {
+    margin-bottom: calc(1.5rem * 0.75);
+  }
+}
+@media screen and (max-width: 1999px) {
+  .container .DiscountContainer p {
+    font-size: 25px;
+  }
+  .container .DiscountContainer h3 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .container .DiscountContainer p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .container h1 {
+    font-size: 80px;
+    line-height: 120px;
+  }
+}
+@media screen and (max-width: 1499px) {
+  .container .DiscountContainer p {
+    font-size: 20px;
+  }
+  .container .DiscountContainer h3 {
+    font-size: 30px;
+  }
+
+  .container h1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .ethMainDiv {
+    height: 50vh;
+  }
+  .container .DiscountContainer p {
+    font-size: 16px;
+  }
+  .container .DiscountContainer h3 {
+    font-size: 25px;
+  }
+  .mainDiv {
+    display: block;
+  }
+  .DiscountContainer {
+    margin-bottom: 20px;
+  }
+  .NFTContainer {
+    margin: 0 20px 0 0;
+  }
+  .container h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .container {
+    width: calc(85% + 20px);
+  }
+
+  .RecentlyHeader h5 {
+    font-size: 15px;
+  }
+  .RecentlyHeader p {
+    font-size: 18px;
+  }
+  .earlyAccess {
+    width: 30vw;
+    margin: 20px 0;
+  }
+  .ChooseContainer {
+    display: block;
+    margin: 0;
+  }
+  .RecentlyHeader {
+    padding: 10px 5%;
+  }
+}
+@media screen and (max-width: 676px) {
+  .earlyAccess {
+    width: 40vw;
+  }
+  .RecentlyContainer {
+    width: 270px;
+    min-height: 370px;
+  }
+  .BackgroundContainer {
+    height: 270px;
+  }
+}
+@media screen and (max-width: 476px) {
+  .earlyAccess {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 1399px) {
+  .RecentlyHeader {
+    padding: 10px;
+  }
+}
+@media screen and (min-width: 2450px) {
+  .RecentlyHeader h5 {
+    font-size: 30px;
+  }
+  .RecentlyHeader p {
+    font-size: 35px;
+  }
+}

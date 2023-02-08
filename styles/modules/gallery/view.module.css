@@ -1,0 +1,239 @@
+.square {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.priceShowed {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1.3rem;
+  text-decoration: none !important;
+}
+
+.priceShowed span {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.dataTableContainer {
+  padding: 0 0 0 40px;
+  width: 75%;
+}
+
+.dataTableContainer h1 {
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.dataTableContainer h2 {
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin: 0;
+  margin-top: auto;
+  margin-bottom: 2px;
+  padding: 0 8px;
+}
+
+.layout {
+  display: flex;
+  align-items: flex;
+  justify-content: flex-start;
+  margin: -2rem 0 1rem 0;
+}
+
+.show_toggled {
+  display: flex;
+  align-items: center;
+  padding: 2rem 40px 2rem;
+}
+
+.layout span {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 50px));
+  grid-template-rows: repeat(auto-fill, minmax(50px, 50px));
+  /* min-height: 30vh; */
+  max-width: 100%;
+  margin: 0 auto 0;
+}
+
+.gridItem {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.gridComplementItem {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #202020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.gridComplementItem svg {
+  transform: scale(0);
+  transition: all 0.5s;
+}
+
+.gridComplementItem:hover svg {
+  transform: scale(1.5);
+}
+
+.loadMoreButton:hover {
+  opacity: 0.6;
+}
+
+.loadMoreContainer {
+  /* width: calc(100% - 80px); */
+  /* height: 52.5px; */
+  margin: 10px 0 0;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+.bottomReadmore {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 20px;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.loadMoreContainer div,
+.loadMoreContainer a {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.loadMoreContainer a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 4px;
+}
+
+.loadMoreContainer svg {
+  margin-right: 0.5rem;
+}
+
+.whiteButton {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 6px 20px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: transparent;
+  margin: 2rem 0 0 0;
+  cursor: pointer;
+  transition: 300ms linear;
+}
+
+.whiteButton:hover {
+  background: #fff;
+  color: #000;
+}
+
+@media screen and (min-width: 3000px) {
+  .mainGrid {
+    grid-template-rows: repeat(15, 1fr);
+  }
+}
+
+@media screen and (min-width: 3000px) {
+  .mainGrid {
+    grid-template-rows: repeat(15, 1fr);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .dataTableContainer {
+    margin: 1rem calc(7.5% - 10px) 0;
+    padding: 0;
+  }
+
+  .dataTableContainer h2 {
+    width: 100px;
+  }
+
+  .gridComplementItem:nth-child(n + 55) {
+    display: none;
+  }
+
+  .layout {
+    align-items: self-start;
+    flex-direction: column;
+  }
+
+  .mainGrid {
+    grid-template-columns: repeat(auto-fill, minmax(35px, 35px));
+    grid-template-rows: repeat(auto-fill, minmax(35px, 35px));
+  }
+
+  .gridItem {
+    width: 35px;
+    height: 35px;
+  }
+
+  .loadMoreContainer {
+    padding: 0 0;
+    margin: 0;
+  }
+
+  .loadMoreContainer div {
+    margin-bottom: 15px;
+  }
+
+  .loadMoreContainer a {
+    margin: 15px 15px 15px 0;
+  }
+
+  .bottomReadmore {
+    padding: 0;
+    grid-gap: 0;
+    gap: 0;
+    flex-direction: column-reverse;
+  }
+
+  .loadMoreContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 25px 0 10px;
+  }
+
+  .whiteButton {
+    font-size: 12px;
+    padding: 10px 14px;
+  }
+
+  .dataTableContainer {
+    width: 100%;
+  }
+}

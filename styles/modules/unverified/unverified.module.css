@@ -1,0 +1,227 @@
+.unverifiedWrapperMain {
+  width: calc(100% + 2px);
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-left: -1px;
+  font-family: 'Sen', sans-serif;
+  background: #000;
+  overflow: hidden;
+}
+
+.unverifiedWrapper {
+  max-width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin: 50px 0;
+}
+
+.unverifiedWrapper .boxInner .title {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.unverifiedWrapper .boxInner h2 {
+  font-family: 'Sen', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 160px;
+  line-height: 160px;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.unverifiedWrapper .boxInner p {
+  font-family: 'Sen', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 84px;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.colorChooseA:hover {
+  transform: scale(1.03);
+}
+.colorChooseA {
+  text-decoration: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Sen', sans-serif;
+  border: 3px solid #000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 220px;
+  min-height: 48px;
+  margin: 30px 0;
+  color: #000;
+  z-index: 130;
+  cursor: pointer;
+  background: #fff;
+}
+.Container {
+  width: calc(100% + 100px);
+  margin: 0 auto;
+}
+
+@media (max-width: 1299px) {
+  .unverifiedWrapper .boxInner .title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .unverifiedWrapper .boxInner p {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .unverifiedWrapper .boxInner h2 {
+    font-size: 90px;
+    line-height: 95px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .unverifiedWrapper .boxInner p {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .unverifiedWrapper .boxInner h2 {
+    font-size: 70px;
+    line-height: 75px;
+  }
+
+  .unverifiedWrapper .boxInner .title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .colorChooseA {
+    width: 55vw;
+  }
+  .Container {
+    width: calc(85% + 20px);
+  }
+  .unverifiedWrapperMain {
+    width: calc(100vw - 20px);
+    height: 70vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .unverifiedWrapper {
+    /* max-width: calc(100% - 35vw); */
+    max-width: 450px;
+  }
+
+  .unverifiedWrapper .boxInner p {
+    font-size: 18px;
+    line-height: 26px;
+    word-break: break-all;
+  }
+
+  .unverifiedWrapper .boxInner h2 {
+    font-size: 55px;
+    line-height: 60px;
+  }
+
+  .unverifiedWrapper .boxInner .title {
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 567px) {
+  .unverifiedWrapperMain {
+    height: 60vh;
+  }
+  .unverifiedWrapper {
+    /* max-width: calc(100% - 35vw); */
+    max-width: 320px;
+  }
+
+  .unverifiedWrapper .boxInner p {
+    font-size: 16px;
+    line-height: 22px;
+    word-break: break-all;
+  }
+
+  .unverifiedWrapper .boxInner h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .unverifiedWrapper .boxInner .title {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1919px) {
+  .unverifiedWrapper {
+    /* max-width: calc(100% - 35vw); */
+    max-width: 550px;
+  }
+
+  .unverifiedWrapper .boxInner .title {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .unverifiedWrapper .boxInner p {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .unverifiedWrapper .boxInner h2 {
+    font-size: 65px;
+    line-height: 70px;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2298px) {
+  .unverifiedWrapper {
+    /* max-width: calc(100% - 40vw); */
+    max-width: 750px;
+  }
+
+  .unverifiedWrapper .boxInner .title {
+    margin-bottom: 15px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .unverifiedWrapper .boxInner h2 {
+    font-size: 90px;
+    line-height: 95px;
+  }
+
+  .unverifiedWrapper .boxInner p {
+    font-size: 45px;
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 2299px) {
+  .unverifiedWrapper {
+    /* max-width: calc(100% - 37vw); */
+    max-width: 1310px;
+  }
+}

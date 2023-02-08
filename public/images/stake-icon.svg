@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 55" width="52" height="55">
+	<title>STAKE AND EARN</title>
+	<defs>
+		<image  width="52" height="55" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA3CAMAAAB0Mpl3AAAAAXNSR0IB2cksfwAAAWtQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////MVj/pQAAAHl0Uk5TAB52IpWvPxmF6v0kku///rM8G4To7SWO8rBAHIHrkfDZ+tHd5NxrDsr7K0i/5XcSsdoPzyxKwTnieRa4JthvDAEuTb3hfBPebBXn/HuP98Yxyc0jtQ1xnAdk5m3bCWDSCGLTcO7f0JkgkPSdMGkhjcRDW/ab+fGMc1Uru8kAAAHSSURBVHic7dZVVwJBFMDxUVRKrqLYgQWrKHYXYid2d3fnx3diJ3YXOMcnX/a+cM6d8xv+7MuC0J8nI9OycmRl56QjTpfbY1p5c30Aefn+VKSgMABQZFgVl5QCm7LyZKSisoocqshRHQQ5ZZZIpyvAjiSiYeqYImmYEYmwGhxQW2eJ1MMA6hs4EmGhsNYI0BRpbjFEirBoa1s7QyKsI9yJUBeApxuhnl4e2VfBw/oHBhEaImiYh42MxvANYwTFyfXjE2zv0Ssmp6bJmqIZPWxWo6USYcYjadgcW1LkFmEWJCNpmILmARYWY+LJGhH+NnwOS9NywVHCiVIitIzRCkqCvGnQKkZ+G9nIRjay0T8htIbRehq0YUWbW+R/xLYjFdrZ3TOjzv0D9j7y5XqTocOjY3IaVJC2Xy/ffKUlxWZ0cnrGzgICbZ7XsNXFJfsMVjtUtLN7xfaJ6zhFNzLs4vZGC3cokQT18TCAu/sIvgGju4dHPcx3+0Ruj42O6JHP3hf8YF7f9LD3jwgtxegzylZf3+Lna7Mh/Rr8h8ATlWGIIx6mPGj8JHkkHxZmQHqYOiJSDVOQEqaOiJRhApnCLJFqGJvElzXMEPlzbSYITQ2nI8nnF9rIpB2/0vxFAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="STAKE AND EARN">
+		<g id="L2 DEX + GIFT SHOP">
+			<use id="Layer 4" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

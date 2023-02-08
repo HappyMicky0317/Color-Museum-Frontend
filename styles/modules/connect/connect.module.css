@@ -1,0 +1,81 @@
+.wallet_part {
+  background-color: grey;
+  padding: 100px 70px;
+  width: fit-content;
+  margin: auto;
+}
+
+.Wrapper {
+  width: 100%;
+  min-height: calc(100vh - 100px);
+  margin: -1px auto 0;
+  font-family: 'Sen', sans-serif;
+  background: #000;
+}
+.InnerWrapper {
+  margin: 0 auto;
+  padding-top: 80px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: #fff;
+  width: calc(100% - 80px);
+}
+.header {
+  margin: 0 0 0 0;
+  padding: 0;
+  padding-top: calc(15vh - 200px);
+  font-family: 'Sen', sans-serif;
+  font-weight: normal;
+  font-size: 80px;
+  color: #fff;
+}
+.subHeader {
+  font-family: 'Sen', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+  margin: 0;
+}
+.container {
+  width: 100%;
+}
+.desc {
+  width: 35vw;
+  font-size: 20px;
+  font-family: 'Sen', sans-serif;
+  color: #fff;
+  margin: 0.5rem 0;
+}
+.flex {
+  display: flex;
+  color: #fff;
+  margin: 2rem 0;
+  font-family: 'Sen', sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  align-items: center;
+  width: fit-content;
+}
+.flex svg {
+  width: 35px;
+  height: auto;
+  margin-right: 1rem;
+}
+@media screen and (max-width: 1000px) {
+  .InnerWrapper {
+    width: calc(85% + 20px);
+  }
+  .header {
+    font-size: 30px;
+  }
+  .subHeader {
+    font-size: 22px;
+  }
+  .desc {
+    font-size: 16px;
+    width: 100%;
+  }
+}

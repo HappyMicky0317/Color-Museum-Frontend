@@ -1,0 +1,415 @@
+.wrapper {
+  min-height: calc(100vh - 100px);
+  margin: 0 auto;
+  font-family: 'Sen', sans-serif;
+  background: #000;
+  overflow: hidden;
+}
+.leaderboard_Loading {
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.contentContainer {
+  width: calc(100% - 100px);
+  margin: 0 auto 50px;
+}
+@media screen and (max-width: 1000px) {
+  .contentContainer {
+    width: calc(85% + 20px);
+  }
+}
+/*  */
+/*  */
+.dataTableContainer {
+  margin: 0;
+}
+.dataTableContainer .itemId,
+.registered {
+  font-family: 'Sen', sans-serif !important;
+  font-weight: 400 !important;
+}
+
+.dataTableContainer h1 {
+  font-family: 'Sen', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 70px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+.dataTableContainer h1 span {
+  font-family: "Plaid";
+  font-weight: 600;
+}
+.dataTableContainer .dataTableContainer p {
+  font-family: 'Sen', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.dataTableContainer h2 {
+  font-family: 'Sen', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 120px;
+  color: #ffffff;
+  margin: 0;
+}
+.dataTableContainer h2 span {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 600;
+}
+.dataTableContainer h2 .count_spacing {
+  padding-right: 10px;
+}
+
+.dataTableContainer h3 {
+  font-family: 'Sen', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 84px;
+  color: #ffffff;
+  margin: 0;
+}
+.dataTableContainer .leaderboard_title {
+  margin: calc(15vh - 63px) 0px 140px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 70%;
+}
+.rigth {
+  width: 30%;
+}
+.rdt_TableRow {
+  width: 100%;
+}
+@media screen and (max-width: 2899px) {
+  .dataTableContainer h2 {
+    font-size: 55px;
+    line-height: 65px;
+  }
+  .dataTableContainer h3 {
+    font-size: 55px;
+    line-height: 55px;
+  }
+  .dataTableContainer p {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .leaderboard_email_wrapper {
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 1999px) {
+  .dataTableContainer h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .dataTableContainer h3 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .dataTableContainer p {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .leaderboard_email_wrapper {
+    max-width: 440px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 1599px) {
+  .dataTableContainer h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .dataTableContainer h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .dataTableContainer p {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .rdt_TableRow,
+  .rdt_TableHeadRow {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 0.85fr 1.3fr 1.6fr 0.5fr 3fr;
+    grid-template-rows: 1fr;
+  }
+}
+@media screen and (max-width: 1299px) {
+  .dataTableContainer h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .dataTableContainer h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .dataTableContainer p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .leaderboard_email_wrapper {
+    max-width: 300px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .leaderboard_email_wrapper {
+    max-width: 290px;
+    margin-left: 10px;
+  }
+  .rdt_TableRow,
+  .rdt_TableHeadRow {
+    width: 130vw;
+    display: grid;
+    grid-template-columns: 0.85fr 1.3fr 1.6fr 0.5fr 3fr;
+    grid-template-rows: 1fr;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .dataTableContainer h1 {
+    font-size: 65px;
+    line-height: 65px;
+  }
+  .dataTableContainer h1 span {
+    font-size: 50px;
+  }
+  .flex {
+    display: block;
+  }
+  .left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .flex h3 {
+    max-width: 40%;
+  }
+  .leaderboard_email_wrapper {
+    max-width: 100%;
+    margin-left: 10px;
+    max-width: 60%;
+    height: 45px;
+  }
+  .rdt_TableRow,
+  .rdt_TableHeadRow {
+    width: 145vw;
+    display: grid;
+    grid-template-columns: 0.95fr 1.3fr 1.6fr 0.5fr 3fr;
+    grid-template-rows: 1fr;
+  }
+  .leaderboard_title {
+    margin: 50px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .rdt_TableRow,
+  .rdt_TableHeadRow {
+    width: 160vw;
+    display: grid;
+    grid-template-columns: 0.95fr 1.6fr 1.3fr 0.5fr 3fr;
+    grid-template-rows: 1fr;
+  }
+}
+@media screen and (max-width: 676px) {
+  .dataTableContainer h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .dataTableContainer span {
+    font-size: 38px;
+  }
+  .flex h3 {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .left {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .leaderboard_email_wrapper {
+    max-width: 100%;
+    margin-left: 0;
+    max-width: 100%;
+  }
+  .rdt_TableRow,
+  .rdt_TableHeadRow {
+    width: 200vw;
+    display: grid;
+    grid-template-columns: 0.95fr 1.6fr 1.3fr 0.5fr 2fr;
+    grid-template-rows: 1fr;
+  }
+  .leaderboard_title {
+    margin: 30px 0;
+  }
+}
+@media screen and (max-width: 567px) {
+  .rdt_TableRow,
+  .rdt_TableHeadRow {
+    width: 260vw;
+    grid-template-columns: 0.95fr 1.6fr 1.3fr 0.5fr 2.5fr;
+  }
+}
+@media screen and (max-width: 399px) {
+  .dataTableContainer h1 {
+    font-size: 42px;
+    line-height: 45px;
+  }
+  .dataTableContainer span {
+    font-size: 31px;
+  }
+  .rdt_TableRow,
+  .rdt_TableHeadRow {
+    width: 325vw;
+    display: grid;
+    grid-template-columns: 0.9fr 1.3fr 1.6fr 0.5fr 3fr;
+    grid-template-rows: 1fr;
+  }
+}
+/*  */
+/*  */
+.header {
+  margin: 0 0 16px 50px;
+  padding: 0;
+  padding-top: calc(15vh - 63px);
+  font-family: 'Sen', sans-serif;
+  font-weight: normal;
+  font-size: 80px;
+  color: #fff;
+}
+.buttonEmailForm {
+  font-family: "Plaid";
+  font-size: clamp(10px, 1vw + 10px, 18px);
+  font-weight: 400;
+  color: black;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+@media screen and (max-width: 1599px) {
+  .buttonEmailForm {
+    padding: 10px 5px;
+    font-size: 15px;
+  }
+}
+@media (-webkit-device-pixel-ratio: 2) and (width: 1440px) {
+  .header {
+    font-size: calc(80px * 0.75);
+    margin: 0 0 calc(16px * 0.75) 50px;
+  }
+  .buttonEmailForm {
+    font-size: calc(20px * 0.75);
+    margin: calc(36px * 0.75) 0 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header {
+    width: 85%;
+    font-size: 65px;
+    margin: 0 0 1rem calc(7.5% - 10px);
+  }
+}
+/*  */
+/*  */
+.emailContainer {
+  width: 100%;
+  margin: 0 0 0 50px;
+  color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 5px solid #e4e4e4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px 5px;
+  max-width: 700px;
+  overflow: hidden;
+  background-color: white;
+  height: 55px;
+  transition: all 0.8s;
+}
+.email_input {
+  background: transparent;
+  font-size: 20px;
+  line-height: clamp(16px, 1vw + 16px, 28px);
+  font-weight: 400;
+  border: none;
+  outline: none;
+  border-bottom: none;
+  padding: 0;
+  width: 100%;
+  padding: 0 0.7rem !important;
+  color: black;
+  font-family: 'Sen', sans-serif;
+  height: 50px;
+}
+.email_input::placeholder {
+  font-size: 20px;
+  line-height: clamp(16px, 1vw + 16px, 28px);
+  font-weight: 400;
+  color: black;
+  font-family: 'Sen', sans-serif;
+}
+@media screen and (max-width: 767px) {
+  .email_input {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .email_input {
+    height: 30px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1199px) {
+  .email_input {
+    font-size: 15px;
+  }
+}
+@media (-webkit-device-pixel-ratio: 2) and (width: 1440px) {
+  .email_input {
+    font-size: calc(28px * 0.75);
+    width: calc(100% * 0.75);
+    height: calc(59px * 0.75);
+    font-size: calc(28px * 0.75);
+  }
+  .email_input::placeholder {
+    font-size: calc(28px * 0.75);
+  }
+}

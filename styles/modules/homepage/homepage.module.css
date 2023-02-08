@@ -1,0 +1,10 @@
+.container {
+  min-height: 300vh;
+  background-color: #000;
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    min-height: 600vh;
+    background-color: #000;
+  }
+}

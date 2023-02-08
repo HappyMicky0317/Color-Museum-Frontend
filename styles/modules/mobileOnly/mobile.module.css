@@ -1,0 +1,41 @@
+.mobileOnly {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  padding: 2rem 7.5%;
+  background: #000;
+  flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+}
+
+.mobileOnly h3 {
+  font-family: 'Sen', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.mobileOnly h1 {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  color: #ffffff;
+  margin: 20px 0 1rem;
+}
+ 
+.loaderAndLogo{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.topLogo img{
+  margin-top: 10px;
+  width: 70%;
+  max-width: 300px;
+}

@@ -1,0 +1,210 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.container article {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+}
+.single_option_box {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.single_option {
+  max-width: 70%;
+}
+.option_heading {
+  font-size: clamp(24px, 1vw + 36px, 64px);
+  line-height: clamp(24px, 1vw + 36px, 36px);
+  color: white;
+  margin: 0;
+  margin-bottom: 24px;
+  font-family: 'Sen', sans-serif, sans-serif;
+}
+.option_des {
+  font-size: clamp(24px, 1vw + 24px, 48px);
+  line-height: clamp(34px, 1vw + 34px, 70px);
+  color: white;
+  margin: 0;
+  min-height: calc(70px * 2);
+  font-family: 'Sen', sans-serif, sans-serif;
+}
+.option_p {
+  font-size: clamp(16px, 1vw + 16px, 24px);
+  line-height: 140%;
+  color: white;
+  margin: 2rem 0;
+  font-family: 'Sen', sans-serif, sans-serif;
+}
+.option_flex {
+  font-size: clamp(13px, 1vw + 13px, 20px);
+  line-height: 120%;
+  color: white;
+  max-width: 600px;
+}
+.option_flex a {
+  text-decoration: none;
+  color: white;
+  height: 0.9em;
+  vertical-align: middle;
+}
+.box_option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.img_fluid {
+  width: 80% !important;
+  max-width: 70% !important;
+  /* min-height: 80% !important; */
+  position: relative;
+}
+.img_fluid_describe {
+  width: 100%;
+  max-width: 100%;
+}
+.options_wrapper {
+  max-width: calc(100% - 37vw) !important;
+  width: calc(100% - 37vw) !important;
+  margin: 0 auto;
+}
+.single_option_box {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.single_option_box_own {
+  grid-gap: 0 !important;
+  grid-template-columns: 1fr !important;
+}
+@media screen and (max-width: 420px) and (min-width: 375px) {
+  .single_option_box_own[data-aos="fade-up"] {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+.single_option_second {
+  max-width: 90%;
+}
+.option_own {
+  margin-bottom: 0;
+}
+.box2_image {
+  max-width: 100px;
+  width: 100%;
+  max-height: 165px;
+  height: 100%;
+  margin-left: 10px;
+}
+.desktop_video {
+  display: block;
+}
+@media screen and (max-width : 1000px) {
+  .options_wrapper{
+    max-width: unset !important;
+    width: unset !important;
+    margin: unset !important;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 724px) {
+  .container {
+    width: 100%;
+  }
+  .single_option_box {
+    grid-template-columns: 1fr;
+  }
+  .single_option,
+  .single_option_second {
+    max-width: 90%;
+  }
+  .choose_content {
+    display: grid;
+    order: 2;
+  }
+  .option_flex {
+    display: inline-block !important;
+  }
+  .choose_content_image {
+    display: grid;
+    order: 1;
+  }
+  .img_fluid {
+    width: 80% !important;
+    max-width: 80% !important;
+    min-height: 40vh !important;
+  }
+  .img_fluid img {
+    width: 100%;
+    height: auto;
+  }
+  .container article {
+    margin-top: 1rem;
+  }
+  .options-wrapper {
+    max-width: 90%;
+    padding-top: 1rem;
+    margin-left: calc(7.5% - 10px);
+  }
+  .single_option_box {
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 724px) {
+  .container {
+    width: 100%;
+  }
+  .single_option_box {
+    grid-template-columns: 1fr;
+  }
+  .single_option,
+  .single_option_second {
+    max-width: 90%;
+  }
+  .choose_content {
+    display: grid;
+    order: 2;
+  }
+  .option_flex {
+    display: inline-block !important;
+  }
+  .choose_content_image {
+    display: grid;
+    order: 1;
+  }
+  .img_fluid {
+    width: 80% !important;
+    max-width: 80% !important;
+    min-height: 40vh !important;
+  }
+  .container article {
+    margin-top: 1rem;
+  }
+  .container article {
+    margin-top: 50px;
+  }
+  .options-wrapper {
+    max-width: 90%;
+    padding-top: 1rem;
+    margin-left: calc(7.5% - 10px);
+  }
+  .single_option_box {
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+  }
+  .option_des {
+    min-height: calc(74px * 2);
+  }
+  .option_p {
+    margin: 1rem 0;
+  }
+  .options_wrapper {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}

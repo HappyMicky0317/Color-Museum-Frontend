@@ -1,0 +1,123 @@
+.footer {
+  width: calc(100% - 2vw);
+  margin: 0 auto;
+  padding: 50px !important;
+  display: block;
+  background: #000;
+  overflow: hidden;
+}
+.fullWidthFooter {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px !important;
+  display: block;
+  background: #000;
+  overflow: hidden;
+}
+.footer a,
+.footer p,
+.footer h4 {
+  font-family: "Sen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.flex_container {
+  display: flex;
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
+  justify-content: space-between;
+}
+.container_footer {
+  display: block;
+  width: fit-content;
+}
+.container_footer h4 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+.report {
+  font-family: "Plaid" !important;
+  margin-top: 0;
+  line-height: 24px;
+}
+.report a {
+  font-family: "Plaid" !important;
+}
+.bulletin_footer {
+  display: none;
+}
+.circle_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.circle_container h4 {
+  font-weight: 400;
+  margin: 0px;
+  margin-top: 0;
+  margin-left: 0;
+  padding: 0px 30px 0 0;
+}
+.circle {
+  background: #00ff0a;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+  margin-top: 0;
+}
+.footerLink {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+  line-height: 24px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+@media (-webkit-device-pixel-ratio: 2) and (width: 1440px) {
+  .container_footer h4 {
+    font-size: calc(20px * 0.75);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .footer {
+    width: 100%;
+    padding: 2rem calc(7.5% - 10px) !important;
+  }
+  .flex_container {
+    flex-direction: column;
+  }
+  .container_footer {
+    width: 100%;
+  }
+  .report {
+    font-family: "Plaid" !important;
+    margin-top: 2rem !important;
+  }
+  .report a {
+    font-family: "Plaid" !important;
+  }
+  .circle_container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: auto;
+    align-items: self-start;
+  }
+  .circle_container h4 {
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 0;
+  }
+  .circle {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+}

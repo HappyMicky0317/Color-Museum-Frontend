@@ -1,0 +1,241 @@
+.launch_pad {
+  padding: 50px 0 100px;
+  position: relative;
+  color: #fff;
+  font-family: 'Sen', sans-serif, sans-serif;
+}
+.launch_pad:before {
+  background-image: url("/images/Launchpad.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 360px;
+  content: "";
+  position: absolute;
+  right: 17%;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  max-width: 400px;
+}
+.launch_pad h1 {
+  font-size: 130px;
+  line-height: 140px;
+  margin: 0;
+  font-family: "Plaid";
+}
+.launch_pad p {
+  font-size: clamp(20px, 1vw + 20px, 26px);
+  line-height: clamp(35px, 1vw + 25px, 30px);
+}
+.options_wrapper {
+  max-width: calc(100% - 37vw);
+  margin: 0 auto;
+}
+.launching_text {
+  max-width: 350px;
+  font-family: "Plaid";
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: 500;
+  margin-top: 5rem;
+  margin-bottom: 0;
+}
+.custom_width1 {
+  max-width: 100%;
+  font-size: 28px;
+  line-height: 30px;
+  margin: 60px 0;
+}
+.new {
+  margin-bottom: 50px;
+  max-width: 235px;
+}
+.new p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.new h2 {
+  font-weight: 700;
+  margin: 0;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.one {
+}
+.two {
+  margin-left: 38%;
+}
+.three {
+  margin-left: 75%;
+}
+.changeOrder {
+  display: flex;
+  flex-flow: column;
+}
+.order1 {
+  order: 1;
+}
+.order2 {
+  order: 2;
+}
+.custom_width2 {
+  max-width: 100%;
+  font-size: 17px !important;
+  line-height: 25px !important;
+}
+@media (max-width: 1599px) and (min-width: 1300px) {
+  .launching_text {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .custom_width1 {
+    font-size: 20px;
+    line-height: 23px;
+    margin: 20px 0;
+  }
+  .launch_pad:before {
+    right: 10%;
+  }
+  .new {
+    margin-bottom: 20px;
+  }
+  .new h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .launching_text {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .launch_pad h1 {
+    font-size: 90px;
+    line-height: 100px;
+  }
+}
+@media (max-width: 1299px) and (min-width: 1000px) {
+  .launching_text {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .custom_width1 {
+    font-size: 20px !important;
+    line-height: 23px !important;
+    margin: 20px 0 !important;
+  }
+  .launch_pad:before {
+    right: 5%;
+  }
+  .new {
+    margin-bottom: 20px;
+  }
+  .new h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .two {
+    margin-left: 30%;
+  }
+  .three {
+    margin-left: 60%;
+  }
+  .launching_text {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .launch_pad h1 {
+    font-size: 70px;
+    line-height: 80px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .launch_pad:before {
+    background-size: 250px;
+    right: 20px;
+  }
+  .launch_pad h1 {
+    font-size: 70px;
+    line-height: 80px;
+  }
+  .launching_text {
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .custom_width1 {
+    margin: 30px 0;
+  }
+  .new {
+    max-width: 150px;
+  }
+  .new h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .two {
+    margin-left: 35%;
+    margin-bottom: 20px;
+  }
+  .three {
+    margin-left: 70%;
+  }
+  .options_wrapper {
+    max-width: 90%;
+    padding-top: 1rem;
+    margin-left: calc(7.5% - 10px);
+  }
+  .order1 {
+    order: 2;
+  }
+  .order1 {
+    padding: 10px !important;
+    margin-top: 1rem !important;
+    margin-bottom: 2rem !important;
+  }
+  .order2 {
+    order: 1;
+    max-width: 50% !important;
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .new p {
+    margin-bottom: 5px;
+  }
+  .launch_pad h1 {
+    font-size: 17vw;
+    line-height: 100%;
+    margin-top: 0.5rem;
+  }
+  .launching_text {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .custom_width1 {
+    font-size: 22px !important;
+    line-height: 25px !important;
+  }
+  .launching_text {
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .new {
+    max-width: 50%;
+  }
+  .new h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .two {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .three {
+    margin-left: 0;
+  }
+}

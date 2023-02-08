@@ -1,0 +1,283 @@
+.filterContainer {
+  width: 100%;
+  background-color: #000000;
+}
+
+.filterContainer .filterDiv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 40px;
+  margin: 10px 0;
+  gap: 30px;
+}
+
+.show_toggled {
+  display: flex;
+  align-items: center;
+}
+
+.show_toggled span {
+  color: #fff;
+  padding-left: 15px;
+}
+
+.filterHeaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 96px;
+  padding: 0 40px;
+}
+
+.filterHeaderContainer h1 {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  color: #ffffff;
+  margin: 0;
+}
+
+.filterHeaderContainer form {
+  display: flex;
+  align-items: center;
+}
+
+.filterHeaderContainer form svg {
+  width: 15px;
+  height: 15px;
+  color: #ffffff40;
+}
+
+.filterHeaderContainer form input {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  margin-left: 0.8rem;
+  width: 290px;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+
+.openCloseIcon {
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.filterLowerContainer {
+  padding: 0 40px;
+  margin-bottom: 32px;
+}
+
+.filterLowerContainer h1 {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  opacity: 0.6;
+  margin: 20px 0 32px 0;
+}
+
+.wrapperCategories {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.baseColor {
+  display: block;
+  margin: 0 20px 1.5rem 0;
+}
+
+.baseColorSquare {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.baseColor h1 {
+  text-transform: capitalize;
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  margin: 12px 0 0;
+  opacity: 1;
+}
+
+.baseColor p {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.filterLowerContainer h2 {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  color: #ffffff;
+  margin: 32px 0 28px;
+}
+
+.flexLowerContainer {
+  /* display: flex;
+  align-items: flex-start;
+  justify-content: space-between; */
+  padding-bottom: 40px;
+}
+
+.button {
+  border: 1px solid #00ff0a;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 16px 24px;
+  background-color: transparent;
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #00ff0a;
+  transition: 300ms ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #000;
+  background: #00ff0a;
+}
+
+.rangeWidth {
+  width: 40%;
+}
+
+.paneNumber {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff60;
+  margin: 10px 0 0;
+}
+
+.buttonFilter {
+  border: 1px solid #00ff0a;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 8px 12px;
+  background-color: transparent;
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #00ff0a;
+  transition: 300ms ease;
+  cursor: pointer;
+}
+
+.buttonWhite {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 8px 12px;
+  background-color: transparent;
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #fff;
+  transition: 300ms ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+
+.buttonWhite svg {
+  margin-left: 11.5px;
+  font-size: 1rem;
+}
+
+.filteredContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.filteredContainer {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+@media screen and (max-width: 1000px) {
+  .filterLowerContainer {
+    padding: 0 calc(7.5% - 10px);
+    margin-bottom: 10px;
+  }
+
+  .filterLowerContainer h1 {
+    margin: 20px 0;
+  }
+
+  .wrapperCategories {
+    justify-content: space-between;
+  }
+
+  .baseColor {
+    margin: 10px 0;
+  }
+
+  .baseColorSquare {
+    width: 75px;
+    height: 75px;
+  }
+
+  .baseColor h1 {
+    font-size: 14px;
+    margin: 10px 0 5px;
+  }
+
+  .baseColor p {
+    font-size: 10px;
+  }
+
+  .flexLowerContainer {
+    padding-bottom: 0;
+  }
+
+  .button {
+    padding: 12px 18px;
+    font-size: 13px;
+  }
+
+  .filterDiv {
+    padding: 0 calc(7.5% - 10px) !important;
+    gap: 15px !important;
+  }
+}

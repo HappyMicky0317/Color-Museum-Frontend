@@ -1,0 +1,782 @@
+.newSlideContainer {
+  z-index: 1000000 !important;
+}
+
+.newSlideContainer .icon {
+  font-size: 25px;
+  height: 25px;
+  width: 25px !important;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.contentTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0 24px;
+}
+
+.contentTitle span {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.newPurchaseTitle span {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.newPurchaseTitle span::-webkit-scrollbar {
+  display: none;
+}
+
+.newPurchaseTitle span,
+.newPurchaseTitle {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Plaid-L-Mono";
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.breadcrumb svg {
+  stroke: #fff;
+  margin: 0 5px;
+  font-size: 1.2rem !important;
+}
+
+.breadcrumb {
+  font-size: 0.9rem;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Plaid";
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.newPurchaseTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newPurchaseTitle svg {
+  font-size: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.newDesignHeader {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 520;
+  font-size: 32px;
+  line-height: 100%;
+  color: #ffffff;
+  margin: 0;
+}
+
+.fontNewDesign {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  opacity: 0.6;
+  margin: 0;
+}
+
+.newTokenIdForm {
+  display: grid;
+  margin-top: 40px;
+}
+
+.newTokenIdForm label {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.newTokenIdForm input {
+  border: 1px solid #ffffff20;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: #100f0f;
+  padding: 24px 20px;
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  outline: none;
+}
+
+.sideContetLoader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.newWhiteButton {
+  background: #ffffff;
+  border-radius: 4px;
+  height: 64px;
+  width: 100%;
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 24px 16px;
+  cursor: pointer;
+  transition: 300ms ease;
+  border: 0;
+  outline: 0;
+  border: 1px solid #fff;
+  width: 139px;
+}
+
+.newWhiteButton:hover {
+  background: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.newBorderButton {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 64px;
+  width: 100%;
+  background: transparent;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+.newBorderButton:hover {
+  background: #fff;
+  color: #000;
+}
+
+.textDes {
+  margin: 30px 0;
+  max-width: 70%;
+}
+
+.textDes p {
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: "Plaid-L-Mono";
+  font-weight: 400;
+  margin: 0 0 15px;
+}
+
+.textDes.lightSection {
+  opacity: 0.5;
+}
+
+.lightSection .iconClose {
+  margin: 20px 0 10px;
+  width: 25px;
+  height: 25px;
+}
+
+.textDes.lightSection {
+  margin-top: 20px;
+}
+
+.textDes.lightSection p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: "Plaid-L-Mono";
+  font-weight: 400;
+}
+
+.textDes.lightSection p:nth-child(3) {
+  max-width: 280px !important;
+}
+
+.textDes p:nth-child(2) {
+  font-size: 15px;
+}
+
+.textDes.bottomText p {
+  font-family: "Plaid-L-Mono";
+}
+
+.emailLoaderContainer {
+  background: #ffffff10;
+  border-radius: 4px;
+  height: 140px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff !important;
+}
+
+.emailLoaderContainer span {
+  border-color: #fff;
+}
+
+.emailLoaderContainer span span:first-of-type {
+  background-color: #fff;
+}
+
+.emailLoaderContainer h4 {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  margin: 16px 0 0;
+}
+
+.verificationContainer {
+  background: #ffffff10;
+  border-radius: 4px;
+  width: 100%;
+  height: 256px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.verificationContainer svg {
+  height: 19px;
+  width: 27px;
+}
+
+.verificationContainer h4 {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  margin: 16px 0 20px;
+}
+
+.verificationContainerLine {
+  opacity: 0.12;
+  border: 1px solid #ffffff;
+  width: 75%;
+}
+
+.verificationContainer p {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.6;
+  width: 30%;
+  margin: 24px 0;
+}
+
+.verificationContainer h3 {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+}
+
+.newConnectionButton {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #100f0f;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  margin-bottom: 12px;
+  transition: 300ms ease;
+  cursor: pointer;
+}
+
+.newConnectionButton img {
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+}
+
+.newConnectionButton span {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.newConnectionButton:hover {
+  background-color: #fff;
+}
+
+.newConnectionButton:hover span {
+  color: #000;
+}
+
+.approved {
+  color: #00ff0a;
+}
+
+.newDesignFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.highlightedFont {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin: 40px 0 20px;
+}
+
+.subFont {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  opacity: 0.6;
+  margin: 0 0 16px;
+}
+
+.offerLine {
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff20;
+  margin: 40px 0 20px;
+}
+
+.newCreateLoginAccount {
+  position: relative;
+  display: grid;
+  margin-bottom: 20px;
+}
+
+.newCreateLoginAccount p b {
+  font-weight: 700;
+}
+
+.newCreateLoginAccount p {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.otpInput {
+  margin-right: 20px;
+}
+
+.otpInput input {
+  padding: 0px !important;
+  width: 68px !important;
+  height: 89px !important;
+  font-family: "Plaid" !important;
+  font-size: 60px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent !important;
+  border: 2px solid #fff !important;
+  border-radius: 4px !important;
+  color: #fff !important;
+}
+
+.formDesc {
+  margin-bottom: 30px;
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #ffffff;
+}
+
+.inputCodeTitle {
+  font-family: "Plaid Trial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.newCreateLoginAccount label {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.newCreateLoginAccount input {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 24px 20px;
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #ffffff;
+  height: 64px;
+  background-color: #100f0f;
+}
+
+.newCreateLoginAccount input::-webkit-outer-spin-button,
+.newCreateLoginAccount input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.newCreateLoginAccount input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.newCreateLoginAccount input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.newCreateLoginAccount button {
+  margin-top: 20px;
+}
+
+.newCreateLoginAccount .loadButton {
+  width: 100%;
+  max-width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.otpForm .otpButtonList {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.otpForm button {
+  max-width: 200px;
+  margin-bottom: 18px;
+  margin-top: 0 !important;
+  padding: 24px 25px !important;
+}
+
+.switchList {
+  margin-top: 113px;
+}
+
+.switchListTitle {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 0 0 12px;
+}
+
+.switchItem {
+  margin: 12px 0;
+}
+
+.switchItem label {
+  display: flex;
+  align-items: center;
+}
+
+.switchItem .react_witch {
+  margin-right: 15px;
+}
+
+.switchItem p {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  margin: 0;
+}
+
+.leftSmallButton button {
+  max-width: 140px;
+  opacity: 0.5;
+}
+
+.leftSmallButton button:hover {
+  opacity: 1;
+}
+
+.buttonWalletConnect {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 260px;
+  height: 64px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #100f0f;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.buttonWalletConnect img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.buttonWalletConnect span {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.approvenTokenNewButton {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 56px;
+  padding: 20px;
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  background-color: #100f0f;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.makeOfferForm {
+  display: grid;
+  position: relative;
+  width: 70%;
+  margin-bottom: 50px;
+}
+
+.makeOfferForm label {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.makeOfferForm input {
+  border: 2px solid #292929;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #100f0f;
+  width: 100%;
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  color: #ffffff;
+  height: 56px;
+}
+
+.makeOfferForm input:last-of-type {
+  padding: 20px 20px 20px 140px;
+}
+
+.makeOfferForm input::-webkit-outer-spin-button,
+.makeOfferForm input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.makeOfferForm input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.usd {
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+  color: #fff;
+  width: 24px !important;
+  height: 30px !important;
+}
+
+.selectValueDropdown {
+  position: absolute;
+  bottom: calc((56px - 35px) / 2);
+  right: 10px;
+  width: 100px;
+  height: 35px;
+}
+
+.selectValueDropdownLeft {
+  position: absolute;
+  bottom: calc((56px - 35px) / 2);
+  left: 10px;
+  width: 100px;
+  height: 35px;
+}
+
+.selectValueDropdownLeft button {
+  width: 100px;
+}
+
+.bidFontSize {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  margin: 40px 0 8px;
+}
+
+.valueAcceptFont {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  color: #ffffff;
+  margin: 0 0 20px;
+}
+
+.deadlineDateFont {
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 130%;
+  color: #ffffff;
+  margin: 0 0 40px;
+}
+
+@media (max-width: 1000px) {
+  .newPurchaseTitle span {
+    max-width: 500px;
+    overflow: auto;
+  }
+
+  .makeOfferForm {
+    width: 100%;
+  }
+}
+
+.expireText {
+  margin: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Sen", sans-serif;
+}
+
+.hours {
+  position: absolute;
+  bottom: 5px;
+  right: 25px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: "Plaid";
+}
+
+/* animation  */
+@keyframes inAnimation {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes outAnimation {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.enableCurrency {
+  width: 75%;
+  font-size: 15px;
+  line-height: 1;
+  color: #ffffff;
+  font-family: "Plaid-L-Mono";
+  font-weight: 400;
+  margin: 0 0 1.75rem;
+}

@@ -1,0 +1,317 @@
+.container {
+  padding: 40px 50px;
+  border-top: 5px solid #100f0f;
+  border-bottom: 5px solid #100f0f;
+  margin: 0 -10px;
+}
+
+.forSale {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.flexContainer {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 0.5rem;
+}
+
+.flexContainerBottom {
+  display: flex;
+  align-items: center;
+}
+
+.flexContainer h1,
+.flexContainer h2,
+.flexContainer h3 {
+  color: #fff;
+  margin: 0 0 0 1rem;
+  line-height: 1;
+}
+
+.flexContainer h1 {
+  font-size: 35px;
+  margin: 0 !important;
+  color: #fff;
+}
+
+.flexContainerBottom h1 {
+  font-size: 30px;
+  margin: 0 !important;
+  color: #fff;
+  font-family: "Plaid-M";
+}
+
+.flexContainer h2 {
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+
+.flexContainer h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.buyButton {
+  padding: 0.5rem 1.25rem;
+  color: #00ff0a;
+  border: 2px solid #00ff0a;
+  border-radius: 5px;
+  background-color: #000;
+  cursor: pointer;
+  transition: all 300ms ease;
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #00ff0a;
+  border-radius: 50px;
+}
+
+.buyButton:hover {
+  background-color: #00ff0a;
+  color: #000;
+}
+
+.loadMoreButton {
+  padding: 0.75rem 7rem;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #000;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.loadMoreButton:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* gbehjkl profile */
+
+.colorBoxView {
+  padding: 60px 0 20px calc(21vw + 20px);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.colorBoxViewSmall {
+  padding: 60px 0 200px 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 15px;
+  row-gap: 15px;
+  width: calc(100% - calc(21vw + 20px));
+  margin-left: auto;
+}
+.rightController {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.recentlyBoxContainer {
+  width: 100%;
+  min-height: 20vw;
+  border: 2px solid #123eef;
+  margin: 0 auto;
+  z-index: 30;
+  text-decoration: none;
+  top: 25px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.backgroundBoxContainer {
+  height: 14vw;
+}
+
+.colorBoxHeader {
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  gap: 5px;
+  height: 40px;
+}
+
+.colorBoxProcessBar {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.bottomPart {
+  padding: 10px 0;
+}
+
+.colorBoxTime {
+  border-radius: 6px;
+  padding: 3px 10px;
+  flex: auto;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 10px;
+  font-family: "Sen";
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.colorBoxLike {
+  position: relative;
+  padding: 10px;
+  background: #191818;
+  border-radius: 6px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.colorDetails {
+  padding: 0 10px;
+}
+
+.colorDetails .ethSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.colorDetails .flexContainerBottom {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.colorDetails h6 {
+  font-family: "Plaid";
+  font-style: normal;
+  font-weight: 520;
+  font-size: 20px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.colorDetails p span {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.colorDetails p {
+  margin: 0;
+  font-family: "Sen", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fff;
+}
+
+.logo_cardImage {
+  height: 1.25vw !important;
+  width: 10vw !important;
+  position: relative;
+  margin-top: 5px;
+}
+
+.containerContent {
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .colorBoxView {
+    padding: 30px 0px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .container {
+    padding: 0 calc(7.5% - 10px);
+  }
+
+  .forSale {
+    margin-top: 1rem;
+  }
+
+  .flexContainer h1 {
+    font-size: 1.75rem;
+    margin: 0 !important;
+  }
+
+  .flexContainer h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.25;
+  }
+
+  .flexContainer h3 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.45;
+  }
+
+  .flexContainerBottom {
+    margin-top: 0.2rem;
+  }
+
+  .flexContainerBottom h1 {
+    font-size: 1rem;
+    margin: 0 !important;
+  }
+
+  .buyButton {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.7rem;
+  }
+
+  .loadMoreButton {
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .recentlyBoxContainer {
+    width: 100%;
+    min-height: 25vw;
+  }
+
+  .backgroundBoxContainer {
+    height: 20vw;
+  }
+
+  .bottomPart {
+    margin-top: 20px;
+  }
+
+  .containerContent {
+    /* height: 50vw; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .colorBoxView {
+    padding: 30px 0px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

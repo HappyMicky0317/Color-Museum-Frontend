@@ -1,0 +1,157 @@
+.loadMoreContainer {
+  width: calc(100% - 80px);
+  height: 52.5px;
+  margin: 0 40px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.loadMoreContainer div,
+.loadMoreContainer a {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.loadMoreContainer a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 4px;
+}
+
+.loadMoreContainer svg {
+  margin-right: 0.5rem;
+}
+
+.header {
+  margin: 4rem 0 1rem 40px;
+  padding: 0;
+  font-family: 'Sen', sans-serif;
+  font-weight: normal;
+  font-size: 45px;
+  color: #fff;
+  width: 25vw;
+}
+
+.desc {
+  margin: 0 0 1rem 40px;
+  font-family: 'Sen', sans-serif;
+  font-weight: normal;
+  font-size: "20px";
+  line-height: "30px";
+  color: #fff;
+  width: 25vw;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 16px 0 2rem 40px;
+  padding: 32px 0;
+}
+
+.flex div:last-of-type {
+  margin-left: 32px;
+}
+
+.timesHeader {
+  font-family: 'Sen', sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.descTimes {
+  margin: 0;
+  font-family: 'Sen', sans-serif;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+  color: #fff;
+}
+
+@media (-webkit-device-pixel-ratio: 2) and (width: 1440px) {
+  .header {
+    margin: calc(48px * 0.75) 0 calc(32px * 0.75) 50px;
+  }
+
+  .desc {
+    font-size: calc(20px * 0.75);
+    line-height: calc(30px * 0.75);
+  }
+
+  .flex {
+    margin-left: calc(32px * 0.75);
+  }
+
+  .timesHeader {
+    font-size: calc(50px * 0.75);
+  }
+
+  .descTimes {
+    font-size: calc(25px * 0.75);
+    line-height: calc(30px * 0.75);
+  }
+}
+
+@media screen and (min-width: 2450px) {
+
+  .herder,
+  .desc {
+    width: 16.75vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .loadMoreContainer {
+    width: calc(85% + 20px);
+    margin: 0 calc(7.5% - 10px) 2rem;
+    font-size: 1rem;
+  }
+
+  .loadMoreContainer div,
+  .loadMoreContainer a {
+    margin-right: 2rem;
+  }
+
+  .loadMoreContainer svg {
+    margin-right: 1rem;
+  }
+
+  .header {
+    width: 85%;
+    font-size: 40px;
+    margin: 2rem 0 1rem calc(7.5% - 10px);
+  }
+
+  .desc {
+    font-size: "20px";
+    width: 85%;
+    margin: 0 0 1rem calc(7.5% - 10px);
+  }
+
+  .flex {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px 0 16px calc(7.5% - 10px);
+  }
+
+  .flex div:last-of-type {
+    margin-left: 0;
+  }
+
+  .timesHeader {
+    font-size: 35px;
+  }
+
+  .descTimes {
+    font-size: 25px;
+  }
+}

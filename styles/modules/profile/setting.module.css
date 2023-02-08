@@ -1,0 +1,267 @@
+.wrapper {
+    background: #000;
+    width: 100%;
+    min-height: 90vh;
+  }
+  
+  .profileTab {
+    width: calc(100% - 100px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 197;
+  }
+  
+  .darkMode {
+    display: flex;
+    gap: 15px;
+  }
+  .profileTab {
+    color: #fff;
+  }
+  
+  .reactTabs {
+    margin: 50px 0;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    color: white;
+    gap: 30px;
+    width: 100%;
+  }
+  .tabsTab_selected:focus,
+  .tabsTab_selected:focus-visible {
+    border: 0;
+    outline: none;
+  }
+  .tabList {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: "Plaid";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+  .leftTab {
+    width: 25%;
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .settingMenu {
+    width: 100%;
+  }
+  .rightTab {
+    flex: auto;
+  }
+  
+  .reactTabs h1 {
+    font-family: "Plaid";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: -0.05em;
+    margin: 0 0 70px;
+  }
+  
+  .tabsTab {
+    height: 70px;
+    list-style: none;
+    padding: 12px 6px;
+    cursor: pointer;
+    color: #4a4a4a;
+    border: 0;
+    height: 40px;
+  }
+  .tabsTab p {
+    margin: 0;
+  }
+  
+  .tabsTab_selected {
+    color: #fff;
+    text-decoration: underline;
+    border: 0;
+  }
+  
+  .tabsTab_panel {
+    display: none;
+    width: 300px;
+  }
+  
+  .tabsTab_panel_selected {
+    display: block;
+    width: 100%;
+    max-width: 480px;
+  }
+  .profileTitle h2 {
+    font-family: "Plaid";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #4a4a4a;
+    margin: 0 0 30px;
+  }
+  .tabsTab_panel .profileBGContent {
+    background: #100f0f;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 50px;
+  }
+  .tabsTab_panel .profileBGContent h6 {
+    margin: 0;
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  .tabsTab_panel .profileWalletContent .leftWallet {
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #ffffff;
+  }
+  
+  .profileFlexContent {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .greenConnected {
+    width: 12.5px;
+    height: 12.5px;
+    border-radius: 50%;
+    background-color: #20d966;
+    margin-right: 0.5rem;
+  }
+  .connectToken {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 10px;
+    color: #4a4a4a;
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    cursor: pointer;
+  }
+  .profileImage {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .profileImage p {
+    margin: 0 0 10px;
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #999999;
+  }
+  .profileImage img {
+    width: 100%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .white_border_button {
+    height: 28px;
+    background: transparent;
+    border-radius: 4px;
+    padding: 5px 20px;
+    font-family: "Plaid";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    margin: 0;
+    transition: 300ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .white_border_button:hover {
+    color: #000;
+    background-color: #fff;
+  }
+  
+  /* form */
+  
+  .profileFrom input {
+    padding: 20px;
+    width: 100%;
+    height: 64px;
+    font-family: 'Sen', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 2px solid #4a4a4a;
+    border-radius: 4px;
+    color: #fff;
+  }
+  .fromList {
+    margin-bottom: 30px;
+    display: block;
+  }
+  
+  .profileFrom label {
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .profileNotification .profileBGContent {
+    margin-bottom: 20px !important;
+  }
+  
+  .switchLabel {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .switchLabel p {
+    margin: 0;
+  }
+  
+  .switchLabel p {
+    font-family: 'Sen', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8f8e8e;
+  }
+  

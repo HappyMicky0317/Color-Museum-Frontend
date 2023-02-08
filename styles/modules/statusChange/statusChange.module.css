@@ -1,0 +1,79 @@
+.popup_container {
+  position: absolute;
+  top: 93px;
+  right: 150px;
+  min-width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  animation: animationPopUp 300ms ease;
+  z-index: 9999;
+}
+.toastComman {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.popup_container h1 {
+  font-family: "Plaid";
+  font-size: 1.1rem;
+  line-height: 1;
+  color: #cce300;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+.popup_container p {
+  font-size: 0.85rem;
+  line-height: 1;
+  margin: 0 0 0 1rem;
+  padding: 0;
+  color: #ffffff;
+  font-family: 'Sen', sans-serif;
+}
+
+.toastSuccessDiv{
+  width: 230px;
+}
+.toastCenterPart p {
+  font-weight: 400;
+  margin: 0;
+  color: #000;
+}
+.toastCenterPart {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10px;
+  flex-direction: column;
+}
+.toastButtonClose {
+  font-size: 30px;
+  color: #000;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+@keyframes animationPopUp {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .popup_container {
+    right: calc(7.5%);
+    top: 150px;
+    width: 85%;
+    max-width: 85%;
+    min-height: 40px;
+  }
+}
